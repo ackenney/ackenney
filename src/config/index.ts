@@ -10,6 +10,7 @@ export const SITE_CONFIG: SiteConfig = {
   navLinks: [
     { text: "About", href: "#about" },
     { text: "Experience", href: "#experience" },
+    { text: "Education", href: "#education" },
     { text: "Projects", href: "#projects" }
   ],
   socialLinks: [
@@ -44,6 +45,16 @@ export const SITE_CONTENT: SiteContent = {
     },
   
   ],
+
+  education: [
+    {
+      school: "University of Michigan — Dearborn",
+      degree: "B.S in Software Engineering",
+      endDate: "April 2021",
+    }
+  
+  ],
+
   projects: [
     {
       name: "Spotifu Music",
@@ -66,7 +77,7 @@ export const SITE_CONTENT: SiteContent = {
 
       Over the years, I’ve honed my skills in building robust, user-friendly applications that not only meet the needs of users but also push the boundaries of what’s possible. My projects range from innovative mobile applications to responsive web designs, all with a focus on performance, security, and scalability.
     `,
-    image: "/alejandro-big.jpg",
+    image: "",
   },
 };
 
