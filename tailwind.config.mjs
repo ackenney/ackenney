@@ -5,8 +5,8 @@ export default {
   content: ["./src/**/*.{astro,html,js,jsx,md,mdx,svelte,ts,tsx,vue}"],
   theme: {
     fontFamily: {
-      sans: ["Be Vietnam Pro", ...defaultTheme.fontFamily.sans],
-      serif: ["Gabarito Variable", ...defaultTheme.fontFamily.serif],
+      sans: ["Space Mono", ...defaultTheme.fontFamily.sans],
+      serif: ["Space Mono", ...defaultTheme.fontFamily.serif],
     },
     fontSize: {
       xs: ["0.875rem", "1.125rem"],
