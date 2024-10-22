@@ -49,7 +49,7 @@ export const SITE_CONTENT: SiteContent = {
   education: [
     {
       school: "University of Michigan — Dearborn",
-      degree: "B.S in Software Engineering",
+      degree: "Bachelor of Science in Software Engineering",
       endDate: "April 2021",
     }
   
