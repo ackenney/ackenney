@@ -73,9 +73,9 @@ export const SITE_CONTENT: SiteContent = {
   ],
   about: {
     description: `
-      Hi, I’m Alejandro Múnez, a passionate Mobile and Web Developer with a knack for crafting seamless digital experiences. With a strong background in both Android and iOS development, as well as front-end web technologies, I thrive in the intersection where creativity meets technology.
+      I am a Software Engineer with practical experience developing real-world applications. Proficient in C++, Python, JavaScript, and low-code development. I am an open-source software enthusiast and a quick learner, and I love to explore new technologies and leverage them to solve real-life problems and bring new ideas to life.
 
-      Over the years, I’ve honed my skills in building robust, user-friendly applications that not only meet the needs of users but also push the boundaries of what’s possible. My projects range from innovative mobile applications to responsive web designs, all with a focus on performance, security, and scalability.
+Currently looking for roles in Software Development and Engineering, Programming, Full Stack Development, and web/mobile application Development.
     `,
     image: "",
   },
