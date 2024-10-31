@@ -12,6 +12,7 @@ export interface SiteContent {
   hero: HeroProps;
   experience: ExperienceProps[];
   education: EducationProps[];
+  skills: SkillsProps[];
   projects: ProjectProps[];
   about: AboutProps;
 }
@@ -28,6 +29,11 @@ export interface ExperienceProps {
   position: string;
   startDate: string;
   endDate: string;
+  summary: string | string[];
+}
+
+
+export interface SkillsProps {
   summary: string | string[];
 }
 

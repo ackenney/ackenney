@@ -4,21 +4,22 @@ export const SITE_CONFIG: SiteConfig = {
   title: "Alexander Kenney — Software Engineer",
   author: "Alexander Kenney",
   description:
-    "Software Engineer based in Detroit, Michigan. I specialize ... Add header description here",
+    "Developer based in Detroit, MI  specializing in web and full-stack application development.",
   lang: "en",
-  siteLogo: "/alejandro-small.jpg",
+  siteLogo: "",
   navLinks: [
     { text: "About", href: "#about" },
     { text: "Experience", href: "#experience" },
     { text: "Education", href: "#education" },
-    { text: "Projects", href: "#projects" }
+    { text: "Projects", href: "#projects" },
+    { text: "Skills", href: "#skills" }
   ],
   socialLinks: [
     { text: "LinkedIn", href: "https://github.com/immois/astro-zen" },
     { text: "Github", href: "https://github.com/immois/astro-zen" },
   ],
-  socialImage: "/zen-og.png",
-  canonicalURL: "https://astro-zen.vercel.app",
+  socialImage: "",
+  canonicalURL: "",
 };
 
 export const SITE_CONTENT: SiteContent = {
@@ -26,7 +27,7 @@ export const SITE_CONTENT: SiteContent = {
     name: "Alexander Kenney",
     specialty: "Software Engineer",
     summary:
-      "Developer based in Detroit, Michigan I specialize ... Add header description here",
+      "Developer based in Detroit, MI  specializing in web and full-stack application development.",
     email: "ackenney@gmail.com",
   },
   experience: [
@@ -71,10 +72,21 @@ export const SITE_CONTENT: SiteContent = {
       image: "/shopify-clon.png",
     },
   ],
+  skills: [
+    {
+      summary: [
+        "Programming Languages: C++, Python, Java, Dart, JavaScript, SQL",
+        "Technologies/Frameworks: RestAPIs, Flutter, jQuery, Node.Js, MongoDB, GraphQL, Pygame",
+        "Development Tools: Git, Postman, Docker, UML, JIRA, Agile, Node-Red, Linux, CI/CD"
+      ],
+    },
+    
+  
+  ],
+  
   about: {
     description: `
       I am a Software Engineer with practical experience developing real-world applications. Proficient in C++, Python, JavaScript, and low-code development. I am an open-source software enthusiast and a quick learner, and I love to explore new technologies and leverage them to solve real-life problems and bring new ideas to life.
-
 Currently looking for roles in Software Development and Engineering, Programming, Full Stack Development, and web/mobile application Development.
     `,
     image: "",
