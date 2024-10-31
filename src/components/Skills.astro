@@ -14,7 +14,6 @@ const { skills } = Astro.props;
     skills.map(({summary }) => (
       <div class="mb-10">
       
-      
         {Array.isArray(summary) ? (
           <ul class="list-none">
             {summary.map((log) => (
