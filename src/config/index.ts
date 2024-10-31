@@ -58,19 +58,20 @@ export const SITE_CONTENT: SiteContent = {
 
   projects: [
     {
-      name: "Spotifu Music",
-      summary: "A music streaming app that emulates Spotify's core features.",
+      name: "Algorithm Visualizer",
+      summary: "Python/Pygame application that shows the sorting processes for the bubble sort, selection sort, shell sort, and insertion sort algorithms.",
       linkPreview: "/",
-      linkSource: "https://github.com/immois/astro-zen",
-      image: "/spotifu.png",
+      linkSource: "https://github.com/ackenney/algorithm-visualizer",
+      image: "",
     },
     {
-      name: "Shopp App",
-      summary: "An e-commerce platform that replicates Shopify's key features.",
+      name: "Chat Client Application",
+      summary: "A Java text messaging client that connects to a server that allows communication with other users.",
       linkPreview: "/",
-      linkSource: "https://github.com/immois/astro-zen",
-      image: "/shopify-clon.png",
+      linkSource: "https://github.com/ackenney/chat-client-application",
+      image: "/",
     },
+    
   ],
   skills: [
     {
