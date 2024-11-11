@@ -24,6 +24,9 @@ export default {
       "9xl": ["6rem", "6.625rem"],
     },
     extend: {
+      fontFamily: {
+        'sans': ['Space Mono', 'Helvetica', 'Arial', 'sans-serif']
+      },
       letterSpacing: {
         tightest: "-2px",
         tighter: "-1px",
