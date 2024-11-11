@@ -8,7 +8,6 @@ export const SITE_CONFIG: SiteConfig = {
   lang: "en",
   siteLogo: "",
   navLinks: [
-    { text: "About", href: "#about" },
     { text: "Experience", href: "#experience" },
     { text: "Education", href: "#education" },
     { text: "Projects", href: "#projects" },
