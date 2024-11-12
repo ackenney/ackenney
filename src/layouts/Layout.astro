@@ -3,6 +3,7 @@ import { ViewTransitions } from "astro:transitions";
 import Header from "@components/Header.astro";
 import "@fontsource/be-vietnam-pro";
 import "@fontsource-variable/gabarito";
+import { AstroFont } from "astro-font";
 import { SITE_CONFIG } from "@config";
 import Footer from "@components/Footer.astro";
 
@@ -30,6 +31,20 @@ const ogImgUrl = canonicalURL + socialImage;
     <meta name="viewport" content="width=device-width" />
     <link rel="icon" type="image/" href="/icon.png" />
     <meta name="generator" content={Astro.generator} />
+    <AstroFont
+      config={[
+        {
+          src: [],
+          name: "Space Mono",
+          // Google Fonts URL
+          googleFontsURL: 'https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap',
+          preload: true,
+          display: "swap",
+          selector: "body",
+          fallback: "sans-serif",
+        },
+      ]}
+    />
     <title>{title}</title>
 
     <meta property="og:title" content={title} />

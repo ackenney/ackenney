@@ -4,10 +4,11 @@ import defaultTheme from "tailwindcss/defaultTheme";
 export default {
   content: ["./src/**/*.{astro,html,js,jsx,md,mdx,svelte,ts,tsx,vue}"],
   theme: {
-    fontFamily: {
+      fontFamily: {
       sans: ['Space Mono', 'sans-serif'],
       serif: ['Space Mono', 'serif'],
     },
+
     fontSize: {
       xs: ["0.875rem", "1.125rem"],
       sm: ["1rem", "1.25rem"],
