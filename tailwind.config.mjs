@@ -5,8 +5,8 @@ export default {
   content: ["./src/**/*.{astro,html,js,jsx,md,mdx,svelte,ts,tsx,vue}"],
   theme: {
     fontFamily: {
-      sans: ["Space Mono", ...defaultTheme.fontFamily.sans],
-      serif: ["Space Mono", ...defaultTheme.fontFamily.serif],
+      sans: ["Space Mono", 'sans-serif'],
+      serif: ["Space Mono", 'serif'],
     },
     fontSize: {
       xs: ["0.875rem", "1.125rem"],
@@ -24,9 +24,6 @@ export default {
       "9xl": ["6rem", "6.625rem"],
     },
     extend: {
-      fontFamily: {
-        'sans': ['Space Mono', 'Helvetica', 'Arial', 'sans-serif']
-      },
       letterSpacing: {
         tightest: "-2px",
         tighter: "-1px",
